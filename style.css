@@ -87,6 +87,7 @@ ul {
   display: flex;
   justify-content: center;
   gap: 40px;
+  padding-bottom: 100px;
 }
 
 .info {
@@ -114,4 +115,57 @@ ul {
 .text {
   margin-top: 10px;
   color: #555;
+}
+
+.quote {
+  background-color: #e5e7eb ;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 300px;
+}
+
+.italic-quote, .author{
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+.author{
+  font-weight: bold;
+  align-self: flex-end;
+  margin-top: 16px;
+  font-size: 24px;
+}
+
+.cta {
+  background-color: #3882f6;
+  padding: 40px 150px;
+  border-radius: 8px;
+  margin: 100px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h3 {
+  color: white;
+  font-size: 24px;
+  margin: 0;}
+  p {
+  color: #e5e7eb;
+  margin: 0;}
+}
+
+.signup2 {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 20px;
 }
