@@ -1,30 +1,25 @@
 body {
   margin: 0;
   background: #eee;
-  font-family: Roboto, serif;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
   background-color: #1f2937;
-  border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  padding-left: 150px;
-  padding-right: 150px;
-  padding-top: 20px;
-  padding-bottom: 50px;
+  padding: 20px 150px 50px;
 }
 
 .logo {
   font-size: 24px;
   font-weight: 900;
   color: #f9faf8;
+}
 
-  }
-
-  a {
-  /* this removes the line under our links */
+a {
   text-decoration: none;
   color: #e5e7eb;
 }
@@ -35,11 +30,55 @@ ul {
   margin: 0;
   padding: 0;
   gap: 8px;
-
 }
 
-.logo, .right {
+.logo,
+.right {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 50px 150px;
+  gap: 32px;
+}
+
+.hero-text,
+.hero-image {
+  flex: 1;
+}
+
+.hero-text .main {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-text .secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 12px;
+}
+
+.signup {
+  background-color: #3882f6;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 24px;
+}
+
+.hero-image {
+  background-color: gray;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
 }
